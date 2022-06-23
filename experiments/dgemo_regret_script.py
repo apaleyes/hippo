@@ -1,4 +1,5 @@
 # this assumes DGEMO is available locally and an experiment was run
+# DGEMO code used here is available at https://github.com/yunshengtian/DGEMO
 # furthermore, we did following modifications to the DGEMO source code (following git notation for changes)
 
 # mobo/mobo.py
