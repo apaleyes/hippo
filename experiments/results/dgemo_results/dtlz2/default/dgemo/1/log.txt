@@ -1,0 +1,126 @@
+========== Problem Definition ==========
+# name: DTLZ2
+# n_var: 4
+# n_obj: 3
+# n_constr: 0
+# f(xl): 1.5
+# f((xl+xu)/2): 0.5000000000000001
+# f(xu): 5.624099184981966e-33
+
+========== Framework Description ==========
+# algorithm: DGEMO
+# surrogate: GaussianProcess
+# acquisition: IdentityFunc
+# solver: ParetoDiscoverySolver
+# selection: DGEMOSelect
+
+========== Iteration 0 ==========
+Surrogate model fitted: 0.10s
+ParetoDiscovery optimizing: generation 12345678910
+Surrogate problem solved: 44.22s
+Number of families is: 1
+Next sample batch selected: 0.02s
+New samples evaluated: 0.00s
+Total step time: 44.34s
+Total runtime: 44.34s
+Total evaluations: 7, hypervolume: 0.4632
+
+========== Iteration 1 ==========
+Surrogate model fitted: 0.08s
+ParetoDiscovery optimizing: generation 12345678910
+Surrogate problem solved: 48.33s
+Number of families is: 1
+Next sample batch selected: 0.03s
+New samples evaluated: 0.00s
+Total step time: 48.44s
+Total runtime: 92.79s
+Total evaluations: 11, hypervolume: 0.5028
+
+========== Iteration 2 ==========
+Surrogate model fitted: 0.10s
+ParetoDiscovery optimizing: generation 12345678910
+Surrogate problem solved: 31.30s
+Number of families is: 1
+Next sample batch selected: 0.05s
+New samples evaluated: 0.00s
+Total step time: 31.45s
+Total runtime: 124.24s
+Total evaluations: 15, hypervolume: 0.5336
+
+========== Iteration 3 ==========
+Surrogate model fitted: 0.10s
+ParetoDiscovery optimizing: generation 12345678910
+Surrogate problem solved: 29.48s
+Number of families is: 1
+Next sample batch selected: 0.07s
+New samples evaluated: 0.00s
+Total step time: 29.65s
+Total runtime: 153.91s
+Total evaluations: 19, hypervolume: 0.5763
+
+========== Iteration 4 ==========
+Surrogate model fitted: 0.12s
+ParetoDiscovery optimizing: generation 12345678910
+Surrogate problem solved: 37.93s
+Number of families is: 1
+Next sample batch selected: 0.09s
+New samples evaluated: 0.00s
+Total step time: 38.13s
+Total runtime: 192.05s
+Total evaluations: 23, hypervolume: 0.6387
+
+========== Iteration 5 ==========
+Surrogate model fitted: 0.10s
+ParetoDiscovery optimizing: generation 12345678910
+Surrogate problem solved: 34.34s
+Number of families is: 1
+Next sample batch selected: 0.10s
+New samples evaluated: 0.00s
+Total step time: 34.55s
+Total runtime: 226.61s
+Total evaluations: 27, hypervolume: 0.6751
+
+========== Iteration 6 ==========
+Surrogate model fitted: 0.14s
+ParetoDiscovery optimizing: generation 12345678910
+Surrogate problem solved: 32.68s
+Number of families is: 1
+Next sample batch selected: 0.11s
+New samples evaluated: 0.00s
+Total step time: 32.92s
+Total runtime: 259.54s
+Total evaluations: 31, hypervolume: 0.9411
+
+========== Iteration 7 ==========
+Surrogate model fitted: 0.12s
+ParetoDiscovery optimizing: generation 12345678910
+Surrogate problem solved: 34.69s
+Number of families is: 1
+Next sample batch selected: 0.08s
+New samples evaluated: 0.00s
+Total step time: 34.89s
+Total runtime: 294.44s
+Total evaluations: 35, hypervolume: 0.9761
+
+========== Iteration 8 ==========
+Surrogate model fitted: 0.11s
+ParetoDiscovery optimizing: generation 12345678910
+Surrogate problem solved: 26.99s
+Number of families is: 1
+Next sample batch selected: 0.07s
+New samples evaluated: 0.00s
+Total step time: 27.18s
+Total runtime: 321.63s
+Total evaluations: 39, hypervolume: 1.1456
+
+========== Iteration 9 ==========
+Surrogate model fitted: 0.11s
+ParetoDiscovery optimizing: generation 12345678910
+Surrogate problem solved: 26.19s
+Number of families is: 1
+Next sample batch selected: 0.09s
+New samples evaluated: 0.00s
+Total step time: 26.39s
+Total runtime: 348.03s
+Total evaluations: 43, hypervolume: 1.2521
+

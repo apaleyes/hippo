@@ -1,0 +1,93 @@
+========== Problem Definition ==========
+# name: Gardner2D
+# n_var: 2
+# n_obj: 2
+# n_constr: 0
+# f(xl): 1.0
+# f((xl+xu)/2): -0.9999999999999999
+# f(xu): 0.9999999999999998
+
+========== Framework Description ==========
+# algorithm: DGEMO
+# surrogate: GaussianProcess
+# acquisition: IdentityFunc
+# solver: ParetoDiscoverySolver
+# selection: DGEMOSelect
+
+========== Iteration 0 ==========
+Surrogate model fitted: 0.12s
+ParetoDiscovery optimizing: generation 12345678910
+Surrogate problem solved: 37.57s
+Number of families is: 1
+Next sample batch selected: 0.00s
+New samples evaluated: 0.00s
+Total step time: 37.69s
+Total runtime: 37.69s
+Total evaluations: 7, hypervolume: 0.0928
+
+========== Iteration 1 ==========
+Surrogate model fitted: 0.13s
+ParetoDiscovery optimizing: generation 12345678910
+Surrogate problem solved: 47.11s
+Number of families is: 1
+Next sample batch selected: 0.00s
+New samples evaluated: 0.00s
+Total step time: 47.24s
+Total runtime: 84.95s
+Total evaluations: 11, hypervolume: 0.4255
+
+========== Iteration 2 ==========
+Surrogate model fitted: 0.13s
+ParetoDiscovery optimizing: generation 12345678910
+Surrogate problem solved: 39.98s
+Number of families is: 7
+Next sample batch selected: 0.02s
+New samples evaluated: 0.00s
+Total step time: 40.14s
+Total runtime: 125.10s
+Total evaluations: 15, hypervolume: 2.0765
+
+========== Iteration 3 ==========
+Surrogate model fitted: 0.16s
+ParetoDiscovery optimizing: generation 12345678910
+Surrogate problem solved: 47.29s
+Number of families is: 15
+Next sample batch selected: 0.06s
+New samples evaluated: 0.00s
+Total step time: 47.51s
+Total runtime: 172.63s
+Total evaluations: 19, hypervolume: 2.8264
+
+========== Iteration 4 ==========
+Surrogate model fitted: 0.14s
+ParetoDiscovery optimizing: generation 12345678910
+Surrogate problem solved: 76.54s
+Number of families is: 16
+Next sample batch selected: 0.07s
+New samples evaluated: 0.00s
+Total step time: 76.76s
+Total runtime: 249.41s
+Total evaluations: 23, hypervolume: 2.8678
+
+========== Iteration 5 ==========
+Surrogate model fitted: 0.13s
+ParetoDiscovery optimizing: generation 12345678910
+Surrogate problem solved: 45.68s
+Number of families is: 22
+Next sample batch selected: 0.05s
+New samples evaluated: 0.00s
+Total step time: 45.85s
+Total runtime: 295.28s
+Total evaluations: 27, hypervolume: 3.3257
+
+========== Iteration 6 ==========
+Surrogate model fitted: 0.13s
+ParetoDiscovery optimizing: generation 12345678910
+Surrogate problem solved: 24.07s
+Number of families is: 11
+Next sample batch selected: 0.07s
+New samples evaluated: 0.00s
+Total step time: 24.28s
+Total runtime: 319.57s
+Total evaluations: 31, hypervolume: 3.4329
+

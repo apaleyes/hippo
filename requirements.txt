@@ -1,0 +1,8 @@
+# that's not the best practice, bu we count on Trieste to bring in additional dependencies
+# such as TensorFlow, GFflow, numpy and so on
+trieste>=0.11.0
+pymoo>=0.5.0
+gym
+Box2D
+matplotlib
+jupyter

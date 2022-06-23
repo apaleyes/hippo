@@ -1,0 +1,71 @@
+========== Problem Definition ==========
+# name: ZDT3
+# n_var: 6
+# n_obj: 2
+# n_constr: 0
+# f(xl): 0.0
+# f((xl+xu)/2): 0.5
+# f(xu): 1.0
+
+========== Framework Description ==========
+# algorithm: DGEMO
+# surrogate: GaussianProcess
+# acquisition: IdentityFunc
+# solver: ParetoDiscoverySolver
+# selection: DGEMOSelect
+
+========== Iteration 0 ==========
+Surrogate model fitted: 0.07s
+ParetoDiscovery optimizing: generation 12345678910
+Surrogate problem solved: 29.78s
+Number of families is: 8
+Next sample batch selected: 0.01s
+New samples evaluated: 0.00s
+Total step time: 29.87s
+Total runtime: 29.87s
+Total evaluations: 7, hypervolume: 3.5700
+
+========== Iteration 1 ==========
+Surrogate model fitted: 0.07s
+ParetoDiscovery optimizing: generation 12345678910
+Surrogate problem solved: 45.37s
+Number of families is: 13
+Next sample batch selected: 0.02s
+New samples evaluated: 0.00s
+Total step time: 45.46s
+Total runtime: 75.34s
+Total evaluations: 11, hypervolume: 4.0413
+
+========== Iteration 2 ==========
+Surrogate model fitted: 0.10s
+ParetoDiscovery optimizing: generation 12345678910
+Surrogate problem solved: 45.92s
+Number of families is: 8
+Next sample batch selected: 0.02s
+New samples evaluated: 0.00s
+Total step time: 46.03s
+Total runtime: 121.38s
+Total evaluations: 15, hypervolume: 4.1484
+
+========== Iteration 3 ==========
+Surrogate model fitted: 0.09s
+ParetoDiscovery optimizing: generation 12345678910
+Surrogate problem solved: 45.26s
+Number of families is: 9
+Next sample batch selected: 0.02s
+New samples evaluated: 0.00s
+Total step time: 45.38s
+Total runtime: 166.76s
+Total evaluations: 19, hypervolume: 4.6723
+
+========== Iteration 4 ==========
+Surrogate model fitted: 0.08s
+ParetoDiscovery optimizing: generation 12345678910
+Surrogate problem solved: 60.70s
+Number of families is: 9
+Next sample batch selected: 0.02s
+New samples evaluated: 0.00s
+Total step time: 60.80s
+Total runtime: 227.58s
+Total evaluations: 23, hypervolume: 5.5085
+

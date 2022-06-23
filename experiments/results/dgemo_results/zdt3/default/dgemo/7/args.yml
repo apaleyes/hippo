@@ -1,0 +1,46 @@
+general:
+  problem: zdt3
+  n_var: 6
+  n_obj: 2
+  n_init_sample: 3
+  n_iter: 5
+  ref_point:
+  - 0.9902263796509291
+  - 6.546352664514693
+  batch_size: 4
+  seed: 7
+  n_seed: 1
+  algo: dgemo
+  subfolder: default
+  exp_name: null
+  log_to_file: true
+  n_process: 1
+surrogate:
+  surrogate: gp
+  n_spectral_pts: 100
+  nu: 5
+  mean_sample: false
+  n_var: 6
+  n_obj: 2
+acquisition:
+  acquisition: identity
+solver:
+  solver: nsga2
+  pop_size: 100
+  n_gen: 10
+  pop_init_method: nds
+  n_process: 1
+  batch_size: 4
+  n_cell: null
+  cell_size: 10
+  buffer_origin: null
+  buffer_origin_constant: 0.01
+  delta_b: 0.2
+  label_cost: 10
+  delta_p: 10.0
+  delta_s: 0.3
+  n_grid_sample: 100
+  n_obj: 2
+selection:
+  selection: hvi
+  batch_size: 4
