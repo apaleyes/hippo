@@ -24,7 +24,6 @@ from trieste.acquisition.multi_objective.pareto import Pareto, get_reference_poi
 
 from test_functions import TestFunction, get_test_function
 from generate_true_pareto_fronts import read_true_pf
-# from mo_penalization import MOLocalPenalizationAcquisitionFunction
 from trieste.acquisition.function.multi_objective import HIPPO
 
 
